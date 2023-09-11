@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <hr>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png"
+        type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png"
+        type="image/png">
+    
+        <img src="imagens/foto-p.png" alt="Imagem Flexível">
+    </picture>
+    <hr>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!-- <audio src="midia/bikerides.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/bikerides.mp3" type="audio/mpeg">
+        <source src="midia/bikerides.ogg" type="audio/ogg">
+        <source src="midia/bikerides.wav" type="audio/wav">
+        <p>
+            Infelizmente seu navegador não reproduz o áudio.
+            <a href="midia/bikerides.mp3">Clique aqui para baixar o arquivo mp3.</a>
+        </p>
+    </audio>
+    <hr>
+
+    <h1>Reproduzindo vídeo</h1>
+    <p>Vamos aprender a reproduzir vídeos no HTML5</p>
+    <video controls  width="500">
+        <source src="midia/fisiovideo.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <h2>Incorporando o vídeo</h2>
+    <p>Desta forma, o site não fica pesado.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/21mDekTZwsw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
