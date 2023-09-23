@@ -2,4 +2,4 @@
  
 Curso de HTML5 e CSS3
 
-Estou aprendendo a gerenciar meus repositórios! 
+Aprendendo a gerenciar meus repositórios! 
