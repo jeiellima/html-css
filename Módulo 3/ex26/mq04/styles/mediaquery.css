@@ -17,6 +17,12 @@
         color: black;
     }
 
+    main::after {
+        content: "Essa impressão não sei oq lá e blabla.";
+        text-align: center;
+        font-size: 15px;
+    }
+
     body {
         background-image: url(../images/back-print.jpg);
     }
