@@ -11,8 +11,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span class="material-symbols-outlined">menu</span>
-        <menu>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -47,5 +47,15 @@
     <footer>
         <p>Site de exemplo pipipopo</p>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if(menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }  
+        }
+    </script>
 </body>
 </html>
