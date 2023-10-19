@@ -8,15 +8,22 @@
 
 header {
     background-color: darkgray;
-    padding-bottom: 10px;
+
 }
-nav {
-    margin-left: 0px;
+menu {
+    display: block;
 }
-nav > a {
+
+menu ul {
+    list-style-type: none;
+}
+ 
+menu ul li a {
+    display: block;
     padding: 10px;
-    border-radius: 5px;
-    background-color: #585858;
+    background-color: gray;
+    text-align: center;
+    border-top: 2px solid darkgray;
 }
 
 a {
@@ -25,7 +32,7 @@ a {
     transition-duration: 0.2s;
 }
 
-a:hover {
+menu ul li a:hover {
     background-color: #292727;
 }
 
@@ -41,18 +48,23 @@ body {
 }
 main {
     margin: auto;
-    width: 400px;
+    width: 90vw;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
-main h2 {
+article h2 {
     padding: 10px;
     padding-left: 0px;
     font-size: 1.7em;
 }
 
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
 footer {
     background-color: #292727;
     color: white;
