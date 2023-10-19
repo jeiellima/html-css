@@ -7,11 +7,23 @@
 }
 
 header {
-    background-color: darkgray;
+    background-color: #3c3e3f;
+}
+.material-symbols-outlined {
+    color: white;
+    background-color: #1f2122;
+    margin: auto;
+    display: block;
+    text-align: center;
+    transition-duration: 0.2s;
+}
 
+.material-symbols-outlined:hover {
+    color: #1f2122;
+    background-color: white;
 }
 menu {
-    display: block;
+    display: none;
 }
 
 menu ul {
@@ -37,6 +49,7 @@ menu ul li a:hover {
 }
 
 header h1 {
+    color: white;
     font-size: 3em;
     padding: 10px;
     margin: auto;
@@ -47,7 +60,7 @@ body {
     background-color: #e2e2e2;
 }
 main {
-    margin: auto;
+    margin: 10px auto;
     width: 90vw;
     background-color: white;
     border-radius: 10px;
